@@ -3,6 +3,7 @@ import Image from "next/image";
 import React, { useEffect, useRef, useState } from "react";
 import { ModeToggle } from "./Darkbtn"
 import { ImArrowUpRight2 } from "react-icons/im";
+import { IoClose } from "react-icons/io5";
 
 const Navbar = () => {
   const sideMenuRef = useRef(null)
@@ -78,7 +79,7 @@ const Navbar = () => {
         {/* --------mobile menu --------------- */}
         <ul ref={sideMenuRef} className="flex md:hidden flex-col gap-4 py-20 px-10 fixed right-0 top-0 bottom-0 w-64 z-50 transition-transform duration-500 translate-x-64 bg-white/90 dark:bg-gray-900/90 backdrop-blur-md shadow-lg">
           <div className="absolute right-6 top-6" onClick={closeMenu}>
-            <Image alt="" className="w-5 cursor-pointer" src={assets.close_black} />
+            <IoClose className="w-6 h-6 cursor-pointer"/>
           </div>
           <li>
             <a onClick={closeMenu} className="font-Ovo" href="#top">

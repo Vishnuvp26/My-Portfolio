@@ -52,7 +52,7 @@ const Contact = () => {
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.5 }}
-        className="text-center text-4xl sm:text-5xl font-Ovo text-foreground">
+        className="text-center text-4xl sm:text-5xl font-Ovo text-foreground mt-4">
         Get in touch
       </motion.h2>
       <motion.form
