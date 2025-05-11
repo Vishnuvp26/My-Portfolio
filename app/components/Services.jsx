@@ -28,19 +28,6 @@ const Services = () => {
       >
         My Services
       </motion.h2>
-      <motion.p
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ delay: 0.5, duration: 0.5 }}
-        className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo text-sm sm:text-base text-muted-foreground"
-      >
-        I'm Abin Subash, a passionate MERN stack developer from Kozhikode,
-        Kerala. With hands-on experience from Brototype's intensive training,
-        I've built projects like an OLX Clone and Netflix Clone, specializing in
-        responsive web applications, real-time features, and clean UI/UX
-        designs. I use React, Node.js, MongoDB, Express.js, Firebase, and
-        Tailwind CSS to create modern, efficient solutions.
-      </motion.p>
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

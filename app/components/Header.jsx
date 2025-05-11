@@ -2,6 +2,7 @@ import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 import { motion } from "motion/react"
+import { FiDownload } from "react-icons/fi"
 
 const Header = () => {
   return (
@@ -64,7 +65,7 @@ const Header = () => {
                 text-foreground'
         >
           My resume
-          <Image src={assets.download_icon} alt='Download Resume' className='w-4 h-4' />
+          <FiDownload  className='w-4 h-4' />
         </motion.a>
       </div>
     </motion.div>
