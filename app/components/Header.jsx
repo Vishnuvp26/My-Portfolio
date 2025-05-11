@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import { motion } from "motion/react"
 import { FiDownload } from "react-icons/fi"
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Header = () => {
   return (
@@ -52,7 +53,7 @@ const Header = () => {
                 flex items-center gap-2 hover:bg-primary/90 transition-colors duration-300'
         >
           Contact me
-          <Image src={assets.right_arrow_white} alt='arrow' className='w-4 h-4' />
+          <FaArrowRightLong  className='w-4 h-4' />
         </motion.a>
         <motion.a
           initial={{ y: 30, opacity: 0 }}
