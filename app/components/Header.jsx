@@ -39,7 +39,7 @@ const Header = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.7, delay: 0.6 }}
         className='max-w-2xl mx-auto font-Ovo text-muted-foreground mb-8 leading-relaxed'>
-        "Motivated wb developer with a strong foundation in MERN stack development.
+        "Motivated web developer with a strong foundation in MERN stack development.
         Proven ability to deliver user-centric applications, collaborate with teams,
         and adapt quickly to new technologies and frameworks."
       </motion.p>
