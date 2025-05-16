@@ -38,27 +38,27 @@ const Navbar = () => {
         </a>
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white/70 dark:bg-gray-900/70 backdrop-blur-sm shadow-sm"}`}>
           <li>
-            <a className="font-Ovo" href="#top">
+            <a className="font-Ovo transition-colors duration-400 hover:text-red-400" href="#top">
               Home
             </a>
           </li>
           <li>
-            <a className="font-Ovo" href="#about">
+            <a className="font-Ovo transition-colors duration-400 hover:text-red-400" href="#about">
               About me
             </a>
           </li>
           <li>
-            <a className="font-Ovo" href="#services">
+            <a className="font-Ovo transition-colors duration-400 hover:text-red-400" href="#services">
               Services
             </a>
           </li>
           <li>
-            <a className="font-Ovo" href="#work">
+            <a className="font-Ovo transition-colors duration-400 hover:text-red-400" href="#work">
               My Work
             </a>
           </li>
           <li>
-            <a className="font-Ovo" href="#contact">
+            <a className="font-Ovo transition-colors duration-400 hover:text-red-400" href="#contact">
               Contact me
             </a>
           </li>
@@ -82,27 +82,27 @@ const Navbar = () => {
             <IoClose className="w-6 h-6 cursor-pointer"/>
           </div>
           <li>
-            <a onClick={closeMenu} className="font-Ovo" href="#top">
+            <a onClick={closeMenu} className="font-Ovo transition-colors duration-400 hover:text-red-400" href="#top">
               Home
             </a>
           </li>
           <li>
-            <a onClick={closeMenu} className="font-Ovo" href="#about">
+            <a onClick={closeMenu} className="font-Ovo transition-colors duration-400 hover:text-red-400" href="#about">
               About me
             </a>
           </li>
           <li>
-            <a onClick={closeMenu} className="font-Ovo" href="#services">
+            <a onClick={closeMenu} className="font-Ovo transition-colors duration-400 hover:text-red-400" href="#services">
               Services
             </a>
           </li>
           <li>
-            <a onClick={closeMenu} className="font-Ovo" href="#work">
+            <a onClick={closeMenu} className="font-Ovo transition-colors duration-400 hover:text-red-400" href="#work">
               My Work
             </a>
           </li>
           <li>
-            <a onClick={closeMenu} className="font-Ovo" href="#contact">
+            <a onClick={closeMenu} className="font-Ovo transition-colors duration-400 hover:text-red-400" href="#contact">
               Contact me
             </a>
           </li>

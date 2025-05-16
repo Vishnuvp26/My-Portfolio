@@ -37,7 +37,7 @@ const About = () => {
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, sclae: 1 }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.9 }}
           className="w-64 sm:w-80 rounded-3xl max-w-none"
         >
           <Image
