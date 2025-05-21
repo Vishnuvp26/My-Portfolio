@@ -100,7 +100,7 @@ export const workData = [
     },
     {
         title: 'To-Do',
-        description: 'A moder Todo app that organise your daily tasks',
+        description: 'A modern Todo app that organise your daily tasks',
         git: 'https://github.com/Vishnuvp26/ToDo-App-React',
         live:'https://your-todo-app-eta.vercel.app',
         bgImage: '/todo.png',
@@ -123,13 +123,11 @@ export const workData = [
         title: 'Stranger Chat',
         description: 'A simple chat room buil with socket, join with a room id',
         git: 'https://github.com/Vishnuvp26/Socket.io-React.git',
-        live:'https://talkify-chi.vercel.app',
         bgImage: '/chat.png',
     },
     {
         title: 'Quiz App',
         description: 'A simple quiz game with score indicator',
-        live: 'https://quiz-app-an9k.onrender.com',
         git: 'https://github.com/Vishnuvp26/Quiz-App',
         bgImage: '/quiz.png',
     },
